@@ -1,0 +1,22 @@
+<div class="text-center">
+
+
+  <div class="container w-50">
+  <div class="bg-light">
+    <h1><%= @flat.name %></h1>
+    <h5><%= @flat.address %></h5>
+  </div>
+
+  <div class="bg-light">
+    <h2>A bit more about this place</h2>
+    <p><%= @flat.description %></p>
+  </div>
+
+  <div class="bg-light">
+    <h2>Details</h2>
+    <i class="fa-solid fa-user-group"></i><%= @flat.number_of_guests %>
+      <i class="fa-solid fa-euro-sign"></i> <%= @flat.price_per_night %>
+  </div>
+
+  </div>
+</div>
